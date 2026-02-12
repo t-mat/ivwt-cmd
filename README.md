@@ -23,6 +23,8 @@ curl.exe -LOJ https://upload.wikimedia.org/wikipedia/en/c/cb/This_is_fine_from_O
 .\ivwt.cmd .\This_is_fine_from_On_Fire_strip_by_KC_Green.jpg
 ```
 
+![Windows Terminal](assets/example.webp)
+
 
 Install
 -------
