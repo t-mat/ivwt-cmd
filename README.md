@@ -4,6 +4,26 @@
 A lightweight CLI image viewer for Windows Terminal (single batch file).
 
 
+Example
+-------
+
+```
+cmd.exe
+pushd %PUBLIC%
+
+mkdir ivwt-test
+cd    ivwt-test
+curl.exe -LOJ https://github.com/t-mat/ivwt-cmd/archive/refs/heads/main.zip
+tar.exe xvf ivwt-cmd-main.zip
+cd          ivwt-cmd-main
+
+.\ivwt.cmd .\assets\sunrise.jpg
+
+curl.exe -LOJ https://upload.wikimedia.org/wikipedia/en/c/cb/This_is_fine_from_On_Fire_strip_by_KC_Green.jpg
+.\ivwt.cmd .\This_is_fine_from_On_Fire_strip_by_KC_Green.jpg
+```
+
+
 Install
 -------
 
