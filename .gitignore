@@ -1,10 +1,9 @@
-.*/
-bin/
-obj/
+/.*/
+/bin/
+/obj/
 
-justfile
-
-*.csproj
-*.jpg
-*.png
-*.user
+/justfile
+/*.csproj
+/*.jpg
+/*.png
+/*.user
